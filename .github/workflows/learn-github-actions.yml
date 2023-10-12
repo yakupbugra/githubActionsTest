@@ -33,5 +33,5 @@ jobs:
       if: ${{ always() }}
     - shell: bash     
       run: |
-        echo "${{ secrets.Greeting }} ${{ env.deneme }}"
+        echo "${{ secrets.Greeting }} ${{ vars.deneme }}"
     
