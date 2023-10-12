@@ -2,8 +2,8 @@ name: dotnet package
 on: [push,workflow_dispatch]
 
 jobs:
-  environment: Dev
   build:
+    environment: Dev
     runs-on: ubuntu-latest  
     steps:
     - uses: actions/checkout@v4
